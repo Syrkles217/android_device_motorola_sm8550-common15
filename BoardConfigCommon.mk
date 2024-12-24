@@ -7,6 +7,9 @@ BOARD_VENDOR := motorola
 
 COMMON_PATH := device/motorola/sm8550-common
 
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv9-a
